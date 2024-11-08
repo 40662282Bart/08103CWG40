@@ -32,7 +32,7 @@ Data Analyst
 
 ### Trigger
 
-A request is made to generate a country report.
+A request is made to generate a City report.
 
 ## MAIN SUCCESS SCENARIO
 
@@ -53,7 +53,7 @@ A request is made to generate a country report.
     If the system cannot connect to the database:
     The system alerts the data analyst of the connection error.
     The analyst retries the report generation once the database is accessible.
-4. **Incomplete Country Data**
+4. **Incomplete City Data**
     If data for a city is missing, the system leaves a note in the report.
 
 ## SUB-VARIATIONS
