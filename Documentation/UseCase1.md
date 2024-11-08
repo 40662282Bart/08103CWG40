@@ -37,9 +37,13 @@ A request is made to generate a country report.
 ## MAIN SUCCESS SCENARIO
 
 1.The data analyst requests a report of all countries.
+
 2.The system retrieves data on all countries from the database, including each country's code, name, continent, region, population, and capital.
+
 3.The system sorts the countries by population in descending order.
+
 4.The system generates a report, displaying the required columns for each country.
+
 5.The report is available for the analyst to view or export.
 
 ## EXTENSIONS
