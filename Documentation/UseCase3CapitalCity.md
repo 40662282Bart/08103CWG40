@@ -28,7 +28,7 @@ No report is generated.
 
 ### Primary Actor
 
-Data Analyst
+Disaster Response Manager
 
 ### Trigger
 
