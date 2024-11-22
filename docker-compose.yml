@@ -1,0 +1,21 @@
+
+services:
+  # Application container
+  app:
+    container_name: app
+    build: .
+    depends_on:
+      - db
+
+  # MySQL database container
+  db:
+    container_name: db
+    build: ./db
+    environment:
+      MYSQL_ROOT_PASSWORD: group40password
+      MYSQL_DATABASE: world
+
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    ports:
+      - "33060:3306"
