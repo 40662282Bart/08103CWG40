@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29680620-d64f-48b8-9014-e810bc197b25" name="Changes" comment="finally the database integration works... a bit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/napier/sem/com/napier/sem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/app/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/app/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/app/intergrationtest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/app/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/app/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/napier/sem/com/napier/sem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/app/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/app/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MyTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +34,12 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/40662282Bart/08103CWG40.git",
-    "accountId": "5ea9f3a3-1781-4101-a1e3-35467fa6e5e5"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/40662282Bart/08103CWG40.git&quot;,
+    &quot;accountId&quot;: &quot;5ea9f3a3-1781-4101-a1e3-35467fa6e5e5&quot;
   }
-}]]></component>
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -67,6 +72,7 @@
     "Docker.db: Compose Deployment.executor": "Run",
     "Docker.docker-compose.yml.db: Compose Deployment.executor": "Run",
     "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "JUnit.MainTest.executor": "Run",
     "JUnit.MyTest.executor": "Debug",
     "JUnit.MyTest.unitTest.executor": "Run",
     "Maven.Test1 [clean].executor": "Run",
@@ -103,7 +109,7 @@
       <recent name="C:\Users\strua\IdeaProjects\08103CWG40" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.unitTest">
+  <component name="RunManager" selected="JUnit.MainTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mycompany.app.Main" />
       <module name="Test1" />
@@ -118,21 +124,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="PACKAGE_NAME" value="com.test.app" />
+      <option name="MAIN_CLASS_NAME" value="com.test.app.MainTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.unitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.testConnectToDatabaseDebug" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="unitTest" />
+      <option name="PACKAGE_NAME" value="com.test.app" />
+      <option name="MAIN_CLASS_NAME" value="com.test.app.MainTest" />
+      <option name="METHOD_NAME" value="testConnectToDatabaseDebug" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -184,13 +190,13 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       <item itemvalue="Docker.db/Dockerfile" />
-      <item itemvalue="JUnit.MyTest" />
-      <item itemvalue="JUnit.MyTest.unitTest" />
+      <item itemvalue="JUnit.MainTest" />
+      <item itemvalue="JUnit.MainTest.testConnectToDatabaseDebug" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyTest.unitTest" />
-        <item itemvalue="JUnit.MyTest" />
+        <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.MainTest.testConnectToDatabaseDebug" />
         <item itemvalue="Docker.db/Dockerfile" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
@@ -218,7 +224,8 @@
       <updated>1728556843368</updated>
       <workItem from="1728556844786" duration="2451000" />
       <workItem from="1731068327488" duration="1047000" />
-      <workItem from="1732270500318" duration="1554000" />
+      <workItem from="1732270500318" duration="2461000" />
+      <workItem from="1732273012045" duration="53000" />
     </task>
     <task id="LOCAL-00001" summary="Checking Gitignore from lab1">
       <option name="closed" value="true" />
@@ -324,7 +331,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732271517672</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="finally the database integration works... a bit">
+      <option name="closed" value="true" />
+      <created>1732272223832</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1732272223832</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
