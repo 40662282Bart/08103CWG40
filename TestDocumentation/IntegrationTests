@@ -1,0 +1,69 @@
+Integration Tests:
+
+1. Report: All Countries in the World Organised by Largest Population to Smallest
+
+Test Description: 
+Verify that all countries are returned, ordered by population from largest to smallest.
+
+Test Steps:
+Request the report for all countries ordered by population.
+Check that the results include all countries.
+Ensure the countries are sorted in descending order by population.
+Validate that the population numbers are correct.
+
+Expected Result: Countries are listed in the correct order, and the data is accurate.
+
+2. Report: All Countries in a Continent Organised by Largest Population to Smallest
+
+Test Description: Ensure that countries within a specified continent are sorted by population.
+
+Test Steps:
+Request the report for all countries within a given continent (e.g., "Asia").
+Ensure the list only includes countries in the specified continent.
+Validate that the countries are ordered by population, from largest to smallest.
+
+Expected Result: Countries in the specified continent are returned and sorted correctly.
+
+3. Report: All Cities in the World Organised by Largest Population to Smallest
+
+Test Description: Verify that cities worldwide are returned, ordered by population.
+
+Test Steps:
+Request the report for all cities worldwide, ordered by population.
+Check that all cities are included.
+Ensure the cities are sorted by population in descending order.
+
+Expected Result: Cities are listed correctly by population in descending order.
+
+4. Report: Top N Populated Countries in the World
+
+Test Description: Verify that the top N populated countries are returned based on user input.
+
+Test Steps:
+Request the top N populated countries, where N is provided by the user (e.g., top 5).
+Check that only the top N countries are returned.
+Ensure these countries are sorted by population in descending order.
+
+Expected Result: The system returns exactly N countries, ordered correctly by population.
+
+5. Report: Top N Populated Cities in a Country
+
+Test Description: Verify that the top N populated cities within a specified country are returned correctly.
+
+Test Steps:
+Request the top N cities within a specific country (e.g., "India").
+Ensure the list contains exactly N cities.
+Verify that the cities are sorted in descending order by population.
+
+Expected Result: The system returns the correct number of cities sorted by population.
+
+6. Report: All Capital Cities in the World Organised by Largest Population to Smallest
+
+Test Description: Ensure that all capital cities worldwide are ordered by population.
+
+Test Steps:
+Request the report for all capital cities, ordered by population.
+Validate that the results are limited to capital cities.
+Check that the cities are sorted by population in descending order.
+
+Expected Result: The report lists capital cities correctly sorted by population.
