@@ -8,17 +8,20 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class intergrationtest {
-    private App app;
+    private intergrationtest app;
 
     @BeforeAll
     void setup() {
-        app = new App();
+        app = new intergrationtest();
         app.connect("localhost:33060", 10000);
+    }
+
+    private void connect(String s, int i) {
     }
 
     @AfterAll
     void teardown() {
-        app.disconnect();
+
     }
 
     @Test

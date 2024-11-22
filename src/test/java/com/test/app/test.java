@@ -60,7 +60,7 @@ public class Test {
     }
 
     public static void main(String[] args) {
-        App app = new App();
+        intergrationtest app = new intergrationtest();
         String location = args.length > 0 ? args[0] : "localhost:33060";
         int delay = args.length > 1 ? Integer.parseInt(args[1]) : 10000;
 
