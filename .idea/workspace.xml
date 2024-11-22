@@ -4,43 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29680620-d64f-48b8-9014-e810bc197b25" name="Changes" comment="finally the database integration works... a bit">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="1d481f03-1092-40ab-b6e5-81e7e345dabf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world_db/Changelog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world_db/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world_db/employees.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world_db/employees_partitioned.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world_db/employees_partitioned_5.1.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world_db/images/employees.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world_db/images/employees.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world_db/images/employees.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world_db/load_departments.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world_db/load_dept_emp.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world_db/load_dept_manager.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world_db/load_employees.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world_db/load_salaries1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world_db/load_salaries2.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world_db/load_salaries3.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world_db/load_titles.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world_db/objects.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world_db/sakila/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world_db/sakila/sakila-mv-data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world_db/sakila/sakila-mv-schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world_db/show_elapsed.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world_db/sql_test.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world_db/test_employees_md5.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world_db/test_employees_sha.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world_db/test_versions.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Test1-1.0-test-jar-with-dependencies.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Test1-1.0-test.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,29 +13,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {}
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/40662282Bart/08103CWG40.git&quot;,
-    &quot;accountId&quot;: &quot;d4994e0b-52fa-40f0-bd51-3daf0855fbea&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "cribledd"
   }
-}</component>
-  <component name="KubernetesApiPersistence">{}</component>
-  <component name="KubernetesApiProvider">{
-  &quot;isMigrated&quot;: true
-}</component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/40662282Bart/08103CWG40.git",
+    "accountId": "85486dca-fc76-4170-9fbf-44755ef5ac99"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="2nF7CWFYCQB6nGeVEZW1yAd4XHI" />
+  <component name="ProjectId" id="2pCrVmmWhPatPmSfov6Xu8Hr2A8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -78,109 +39,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Main (1).executor": "Run",
-    "Application.Main.executor": "Run",
-    "Docker.Dockerfile.executor": "Run",
-    "Docker.Group Coursework Software Engineering/Dockerfile.executor": "Run",
-    "Docker.db.app: Compose Deployment.executor": "Run",
-    "Docker.db.db: Compose Deployment.executor": "Run",
-    "Docker.db/Dockerfile.executor": "Run",
-    "Docker.db: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml.db: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
-    "Maven.Test1 [clean].executor": "Run",
-    "Maven.Test1 [compile].executor": "Run",
-    "Maven.Test1 [package].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/strua/IdeaProjects/08103CWG40",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "promo.database",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
-    ]
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\strua\IdeaProjects\08103CWG40" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\strua\IdeaProjects\08103CWG40" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.app.Main" />
-      <module name="Test1" />
-      <option name="PROGRAM_PARAMETERS" value="DEBUG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mycompany.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="helloworld" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="helloworld" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml">
-        <settings />
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile">
-        <settings />
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -190,93 +56,24 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\Bartek\AppData\Roaming\Subversion</configuration>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="29680620-d64f-48b8-9014-e810bc197b25" name="Changes" comment="" />
-      <created>1728556843368</created>
+      <changelist id="1d481f03-1092-40ab-b6e5-81e7e345dabf" name="Changes" comment="" />
+      <created>1732280933016</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1728556843368</updated>
-      <workItem from="1728556844786" duration="2451000" />
-      <workItem from="1731068327488" duration="1047000" />
+      <updated>1732280933016</updated>
+      <workItem from="1732280938387" duration="42000" />
+      <workItem from="1732280981201" duration="133000" />
     </task>
-    <task id="LOCAL-00001" summary="Checking Gitignore from lab1">
-      <option name="closed" value="true" />
-      <created>1728559026138</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1728559026138</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Checking Gitignore from lab1">
-      <option name="closed" value="true" />
-      <created>1728560951430</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1728560951430</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Checking Gitignore from lab1">
-      <option name="closed" value="true" />
-      <created>1728561325374</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1728561325374</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Checking Gitignore from lab1">
-      <option name="closed" value="true" />
-      <created>1728561343608</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1728561343608</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Checking Gitignore from lab1">
-      <option name="closed" value="true" />
-      <created>1730903953543</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1730903953544</updated>
-    </task>
-    <task id="LOCAL-00006" summary="finally the database integration works... a bit">
-      <option name="closed" value="true" />
-      <created>1730904070470</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1730904070470</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update pom.xml" />
-    <MESSAGE value="first commit, git ignore file, plus vcs(version control file?) plus 4 unversioned files" />
-    <MESSAGE value="Checking Gitignore from lab1" />
-    <MESSAGE value="finally the database integration works... a bit" />
-    <option name="LAST_COMMIT_MESSAGE" value="finally the database integration works... a bit" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/db/world_db" />
+    </ignored-roots>
   </component>
 </project>
