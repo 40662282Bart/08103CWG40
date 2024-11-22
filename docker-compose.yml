@@ -19,3 +19,4 @@ services:
     restart: always
     ports:
       - "33060:3306"
+
