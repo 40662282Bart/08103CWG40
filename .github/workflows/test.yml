@@ -1,5 +1,11 @@
-name: CI Workflow
-on: [push, pull_request]
+name: CI/CD Workflow
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
 
 jobs:
   UnitTests:
@@ -11,8 +17,6 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '11'
-      - name: Install Dependencies
-        run: mvn install
       - name: Run Unit Tests
         run: mvn test
 
@@ -25,14 +29,15 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '11'
-      - name: Build and Test
-        run: |
-          docker-compose up -d
-          mvn -Dtest=com.napier.sem.AppIntegrationTest test
-          docker-compose down
+      - name: Start Docker
+        run: docker-compose up -d
+      - name: Run Integration Tests
+        run: mvn -Dtest=com.napier.sem.AppIntegrationTest test
+      - name: Stop Docker
+        run: docker-compose down
 
-  Coverage:
-    name: Code Coverage
+  CodeCoverage:
+    name: Upload Code Coverage
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -40,9 +45,9 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '11'
-      - name: Run Tests
+      - name: Run Tests and Coverage
         run: mvn test
-      - name: Upload Coverage
+      - name: Upload to Codecov
         uses: codecov/codecov-action@v4
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
