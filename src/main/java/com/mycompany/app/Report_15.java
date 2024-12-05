@@ -1,5 +1,7 @@
 package com.mycompany.app;
 
+// All the cities in a district organised by largest population to smallest.
+
 import java.sql.*;
 import java.util.Scanner;
 
