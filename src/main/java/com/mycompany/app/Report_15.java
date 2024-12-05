@@ -79,7 +79,7 @@ public class Report_15 {
                 // Debug environment (local database)
                 url = "jdbc:mysql://localhost:33060/world?useSSL=false";
             } else {
-                // Production/Docker environment
+                // Docker environment
                 url = "jdbc:mysql://db:3306/world?useSSL=false";
             }
 
