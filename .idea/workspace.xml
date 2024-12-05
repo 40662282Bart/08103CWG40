@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d481f03-1092-40ab-b6e5-81e7e345dabf" name="Changes" comment="Commit with 3 reports that ask the user for input, all country population">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/app/Report_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/app/Report_5.java" afterDir="false" />
+    <list default="true" id="1d481f03-1092-40ab-b6e5-81e7e345dabf" name="Changes" comment="Commit with 5 nearly six reports reports that ask the user for input, added city ones">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/app/Report_7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/app/CountryPopulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/app/Report_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/app/Report_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/app/Report_6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Test1-1.0-test-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Test1-1.0-test-jar-with-dependencies.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Test1-1.0-test.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Test1-1.0-test.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/app/CountryPopulation.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
@@ -26,6 +28,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -63,6 +66,10 @@
     "Application.Report_3.executor": "Run",
     "Application.Report_4.executor": "Run",
     "Application.Report_5.executor": "Run",
+    "Application.Report_6.executor": "Run",
+    "Application.Report_7.executor": "Run",
+    "Application.Report_8.executor": "Run",
+    "Application.Report_9.executor": "Run",
     "Application.World_database.executor": "Run",
     "Docker.docker-compose.yml.app: Compose Deployment.executor": "Run",
     "Docker.docker-compose.yml.db: Compose Deployment.executor": "Run",
@@ -91,23 +98,9 @@
       <recent name="C:\Users\strua\IdeaProjects\08103CWG40\db" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Report_5">
+  <component name="RunManager" selected="Application.Report_8">
     <configuration name="CountryPopulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mycompany.app.CountryPopulation" />
-      <module name="Test1" />
-      <option name="PROGRAM_PARAMETERS" value="DEBUG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mycompany.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.app.Main" />
       <module name="Test1" />
       <option name="PROGRAM_PARAMETERS" value="DEBUG" />
       <extension name="coverage">
@@ -190,6 +183,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Report_6" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.app.Report_6" />
+      <module name="Test1" />
+      <option name="PROGRAM_PARAMETERS" value="DEBUG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Report_7" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.app.Report_7" />
+      <module name="Test1" />
+      <option name="PROGRAM_PARAMETERS" value="DEBUG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Report_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.app.Report_8" />
+      <module name="Test1" />
+      <option name="PROGRAM_PARAMETERS" value="DEBUG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Report_9" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.app.Report_9" />
+      <module name="Test1" />
+      <option name="PROGRAM_PARAMETERS" value="DEBUG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="World_database" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mycompany.app.World_database" />
       <module name="Test1" />
@@ -209,22 +258,25 @@
     </configuration>
     <list>
       <item itemvalue="Application.Report_5" />
+      <item itemvalue="Application.Report_6" />
+      <item itemvalue="Application.Report_7" />
+      <item itemvalue="Application.Report_9" />
       <item itemvalue="Application.Report_2" />
       <item itemvalue="Application.Report_3" />
+      <item itemvalue="Application.Report_8" />
       <item itemvalue="Application.Report_4" />
       <item itemvalue="Application.Report_1" />
       <item itemvalue="Application.World_database" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.CountryPopulation" />
       <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Report_8" />
+        <item itemvalue="Application.CountryPopulation" />
         <item itemvalue="Application.Report_4" />
         <item itemvalue="Application.World_database" />
         <item itemvalue="Application.Report_1" />
-        <item itemvalue="Application.CountryPopulation" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +297,7 @@
       <option name="presentableId" value="Default" />
       <updated>1732280933016</updated>
       <workItem from="1732280938387" duration="42000" />
-      <workItem from="1732280981201" duration="28892000" />
+      <workItem from="1732280981201" duration="30032000" />
     </task>
     <task id="LOCAL-00001" summary="adding sql database">
       <option name="closed" value="true" />
@@ -279,7 +331,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733420980982</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit with 5 nearly six reports reports that ask the user for input, added city ones">
+      <option name="closed" value="true" />
+      <created>1733433910350</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733433910351</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Commit with 5 nearly six reports reports that ask the user for input, added city ones">
+      <option name="closed" value="true" />
+      <created>1733433917021</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733433917022</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,6 +371,7 @@
     <MESSAGE value="adding sql database" />
     <MESSAGE value="Commit 5/12/2024 before full reports, code format sorta done" />
     <MESSAGE value="Commit with 3 reports that ask the user for input, all country population" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit with 3 reports that ask the user for input, all country population" />
+    <MESSAGE value="Commit with 5 nearly six reports reports that ask the user for input, added city ones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit with 5 nearly six reports reports that ask the user for input, added city ones" />
   </component>
 </project>

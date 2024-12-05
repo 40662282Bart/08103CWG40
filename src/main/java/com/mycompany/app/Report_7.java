@@ -1,11 +1,12 @@
 package com.mycompany.app;
 
 import java.sql.*;
+import java.util.Scanner;
 
-public class CountryPopulation {
+public class Report_7 {
     public static void main(String[] args) {
+        // Load Database driver
         try {
-            // Load Database driver
             Class.forName("com.mysql.cj.jdbc.Driver");
         } catch (ClassNotFoundException e) {
             System.out.println("Could not load SQL driver");
@@ -40,43 +41,52 @@ public class CountryPopulation {
 
         if (con != null) {
             try {
-                // Query to fetch population report data for continents, regions, and countries
-                String query = "SELECT country.Name AS CountryName, country.Population AS TotalPopulation, " +
-                        "ROUND(SUM(city.Population), 0) AS CityPopulation, " +
-                        "ROUND((SUM(city.Population) / country.Population) * 100, 2) AS CityPercentage, " +
-                        "ROUND((country.Population - SUM(city.Population)), 0) AS NonCityPopulation, " +
-                        "ROUND(((country.Population - SUM(city.Population)) / country.Population) * 100, 2) AS NonCityPercentage " +
-                        "FROM country " +
-                        "LEFT JOIN city ON country.Code = city.CountryCode " +
-                        "GROUP BY country.Name, country.Population " +
-                        "ORDER BY country.Population DESC;";
+                // Get user input for continent and top N cities
+                Scanner scanner = new Scanner(System.in);
+                System.out.print("Enter the Country: ");
+                String country = scanner.nextLine();
+                System.out.print("Enter the number of top cities you want to retrieve: ");
+                int topN = scanner.nextInt();
 
-                // Execute query
-                Statement stmt = con.createStatement();
-                ResultSet rs = stmt.executeQuery(query);
+                // SQL query to fetch top N cities in the specified continent based on population
+                String query = "SELECT " +
+                        "city.Name AS CityName, " +
+                        "country.Name AS CountryName, " +
+                        "city.District, " +
+                        "city.Population " +
+                        "FROM city " +
+                        "JOIN country ON city.CountryCode = country.Code " +
+                        "WHERE country.Name = ? " +
+                        "ORDER BY city.Population DESC " +
+                        "LIMIT ?";  // Limit to top N cities
+
+                // Prepare and execute the query with user input
+                PreparedStatement pstmt = con.prepareStatement(query);
+                pstmt.setString(1, country); // Set continent parameter
+                pstmt.setInt(2, topN);         // Set top N parameter
+
+                ResultSet rs = pstmt.executeQuery();
 
                 // Display the results
-                System.out.printf("%-30s %-15s %-20s %-15s %-20s %-15s%n",
-                        "Country Name", "Total Population", "City Population", "City %", "Non-City Population", "Non-City %");
+                System.out.printf("%-30s %-30s %-20s %-15s%n",
+                        "City Name", "Country Name", "District", "Population");
                 System.out.println("---------------------------------------------------------------------------------------------------");
 
                 while (rs.next()) {
+                    String cityName = rs.getString("CityName");
                     String countryName = rs.getString("CountryName");
-                    int totalPopulation = rs.getInt("TotalPopulation");
-                    int cityPopulation = rs.getInt("CityPopulation");
-                    double cityPercentage = rs.getDouble("CityPercentage");
-                    int nonCityPopulation = rs.getInt("NonCityPopulation");
-                    double nonCityPercentage = rs.getDouble("NonCityPercentage");
+                    String district = rs.getString("District");
+                    int population = rs.getInt("Population");
 
-                    System.out.printf("%-30s %-15d %-20d %-15.2f %-20d %-15.2f%n",
-                            countryName, totalPopulation, cityPopulation, cityPercentage, nonCityPopulation, nonCityPercentage);
+                    System.out.printf("%-30s %-30s %-20s %-15d%n",
+                            cityName, countryName, district, population);
                 }
 
                 // Close resources
                 rs.close();
-                stmt.close();
+                pstmt.close();
             } catch (SQLException e) {
-                System.out.println("SQL Exception occurred while fetching population report.");
+                System.out.println("SQL Exception occurred while fetching city population report.");
                 System.out.println(e.getMessage());
             } finally {
                 try {
@@ -89,3 +99,4 @@ public class CountryPopulation {
         }
     }
 }
+
