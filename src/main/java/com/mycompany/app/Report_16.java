@@ -5,7 +5,7 @@ package com.mycompany.app;
 import java.sql.*;
 import java.util.Scanner;
 
-public class Report_1 {
+public class Report_16 {
     public static void main(String[] args) {
         // Initialize connection
         Connection con = connectToDatabase(args);
