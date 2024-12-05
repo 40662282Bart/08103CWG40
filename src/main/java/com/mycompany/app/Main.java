@@ -22,10 +22,9 @@ public class Main {
                 // Wait a bit for db to start
                 Thread.sleep(3000);
                 // Connect to the database (use 'world_db' in the connection string)
-                if (args.length!=0 && args[0].equals("DEBUG")) {
+                if (args.length != 0 && args[0].equals("DEBUG")) {
                     con = DriverManager.getConnection("jdbc:mysql://localhost:33060/world?useSSL=false", "root", "group40password");
-                }
-                else {
+                } else {
                     con = DriverManager.getConnection("jdbc:mysql://db:3306/world?useSSL=false", "root", "group40password");
                 }
                 System.out.println("Successfully connected");
@@ -49,4 +48,3 @@ public class Main {
         }
     }
 }
-
