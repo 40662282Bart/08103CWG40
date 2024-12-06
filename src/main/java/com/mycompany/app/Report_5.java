@@ -1,4 +1,7 @@
 package com.mycompany.app;
+/**
+ * the top n cities where continent is also chosen
+ */
 
 import java.sql.*;
 import java.util.Scanner;

@@ -1,4 +1,7 @@
 package com.mycompany.app;
+/**
+ * top n cities in a specified country
+ */
 
 import java.sql.*;
 import java.util.Scanner;

@@ -1,6 +1,6 @@
 package com.mycompany.app;
 /**
- * The Top N Populated countries in the world where N is provided by the user.
+ * The Top N Populated countries in the world where N is provided by the user
  */
 
 import java.sql.*;
@@ -39,7 +39,7 @@ public class Report_1 {
                 ResultSet rs = stmt.executeQuery();
 
                 // Display the results
-                System.out.printf("%-30s %-15s %-15s %-15s %-15s %-15s%n",
+                System.out.printf("%-30s %-15s %-15s %-15s %-15s %-15s%n", //this is likw padding in html for spacing out the output make it look all neat
                         "Country", "Total Pop", "City Pop", "City %", "Non-City Pop", "Non-City %");
                 System.out.println("---------------------------------------------------------------------------------------------------");
                 while (rs.next()) {

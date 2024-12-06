@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d481f03-1092-40ab-b6e5-81e7e345dabf" name="Changes" comment="Commit with 5 nearly six reports reports that ask the user for input, added city ones">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/app/Report_7.java" afterDir="false" />
+    <list default="true" id="1d481f03-1092-40ab-b6e5-81e7e345dabf" name="Changes" comment="Commit with all 8 of my reports done but still needing final touches and commented properly">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/app/CountryPopulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/app/Report_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/app/Report_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/app/Report_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/app/Report_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/app/Report_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/app/Report_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/app/Report_5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/app/Report_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/app/Report_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/app/Report_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/app/Report_7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Test1-1.0-test-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Test1-1.0-test-jar-with-dependencies.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Test1-1.0-test.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Test1-1.0-test.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/app/CountryPopulation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/app/Report_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/app/Report_3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
@@ -98,7 +100,7 @@
       <recent name="C:\Users\strua\IdeaProjects\08103CWG40\db" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Report_8">
+  <component name="RunManager" selected="Application.Report_5">
     <configuration name="CountryPopulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mycompany.app.CountryPopulation" />
       <module name="Test1" />
@@ -297,7 +299,7 @@
       <option name="presentableId" value="Default" />
       <updated>1732280933016</updated>
       <workItem from="1732280938387" duration="42000" />
-      <workItem from="1732280981201" duration="30032000" />
+      <workItem from="1732280981201" duration="33795000" />
     </task>
     <task id="LOCAL-00001" summary="adding sql database">
       <option name="closed" value="true" />
@@ -347,7 +349,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733433917022</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Commit with all 8 of my reports done but still needing final touches and commented properly">
+      <option name="closed" value="true" />
+      <created>1733434867969</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733434867972</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,6 +382,7 @@
     <MESSAGE value="Commit 5/12/2024 before full reports, code format sorta done" />
     <MESSAGE value="Commit with 3 reports that ask the user for input, all country population" />
     <MESSAGE value="Commit with 5 nearly six reports reports that ask the user for input, added city ones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit with 5 nearly six reports reports that ask the user for input, added city ones" />
+    <MESSAGE value="Commit with all 8 of my reports done but still needing final touches and commented properly" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit with all 8 of my reports done but still needing final touches and commented properly" />
   </component>
 </project>

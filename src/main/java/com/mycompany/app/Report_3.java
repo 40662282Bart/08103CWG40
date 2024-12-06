@@ -1,6 +1,6 @@
 package com.mycompany.app;
 /**
- * The top N populated countries in a continent where N is provided by the user and you pick the continent
+ * The top N populated countries in a region where N is provided by the user and you pick the continent
  */
 
 import java.sql.*;
@@ -47,7 +47,7 @@ public class Report_3 {
                 // Get continent and number of countries from user input
                 Scanner scanner = new Scanner(System.in);
                 System.out.print("Enter the region (e.g., South America, Polynesia, Western Europe, Middle East): ");
-                String continent = scanner.nextLine();
+                String region = scanner.nextLine();
                 System.out.print("Enter the number of top countries you want to retrieve: ");
                 int topN = scanner.nextInt();
 
@@ -68,7 +68,7 @@ public class Report_3 {
 
                 // Prepare and execute the query with user inputs
                 PreparedStatement pstmt = con.prepareStatement(query);
-                pstmt.setString(1, continent);  // Set continent parameter
+                pstmt.setString(1, region);  // Set continent parameter
                 pstmt.setInt(2, topN);  // Set top N parameter
 
                 ResultSet rs = pstmt.executeQuery();

@@ -1,4 +1,7 @@
 package com.mycompany.app;
+/**
+ * top n cities where region is chosen
+ */
 
 import java.sql.*;
 import java.util.Scanner;
